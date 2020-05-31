@@ -22,8 +22,20 @@
 			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 			<mirrorOf>central</mirrorOf>
 		</mirror>
+		<!-- 中国的开源库open source china-->
+		<mirror>
+			<id>osc</id>
+			<mirrorOf>*</mirrorOf>
+			<url>http://maven.oschina.net/content/groups/public/</url>
+		</mirror>
+		<!-- 中央仓库1 -->
+		<mirror>
+				<id>repo1</id>
+				<mirrorOf>central</mirrorOf>
+				<name>Human Readable Name for this Mirror.</name>
+				<url>https://repo1.maven.org/maven2/</url>
+		</mirror>
 		
 	</mirrors>
-	<!-- 这里需要将配置激活才有用 -->
     <Profiles/>
 </settings>
